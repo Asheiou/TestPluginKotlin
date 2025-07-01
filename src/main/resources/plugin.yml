@@ -1,0 +1,13 @@
+name: TestPluginKotlin
+version: '1.0-SNAPSHOT'
+main: cymru.asheiou.test.testPluginKotlin.TestPluginKotlin
+api-version: '1.21'
+depend: [SmartInvs]
+commands:
+  test:
+    description: test
+    usage: /<command>
+    permission: tpko.test
+permissions:
+  tpko.test:
+    default: true
